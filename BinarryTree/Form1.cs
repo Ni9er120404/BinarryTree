@@ -66,7 +66,7 @@ namespace BinarryTree
         }
     }
     internal class Node<T> : IComparable, IComparable<T>
-    where T : IComparable, IComparable<T>
+        where T : IComparable, IComparable<T>
     {
         public T Data { get; set; }
 
